@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rashi.anti_theft_proj.ChatActivity" >
+    
+    <item
+        android:id="@+id/send_image"
+        android:title="@string/send_image"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_picture" />
+    
+
+    
+    <item 
+        android:id="@+id/send_audio"
+        android:title="@string/send_audio"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_mic" />
+    
+	<item 
+        android:id="@+id/send_video"
+        android:title="@string/send_video"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_video" />
+
+
+</menu>
